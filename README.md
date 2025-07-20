@@ -15,11 +15,6 @@ This project demonstrates how to securely host a static portfolio website using 
 
 ---
 
-## 🧱 Architecture
+## 🧭 Architecture Diagram
 
-```text
-User --> HTTPS Request --> CloudFront (CDN + TLS)
-                               |
-                               | (OAI)
-                               v
-                           AWS S3 (Static Files)
+![Architecture](./architecture.png)
